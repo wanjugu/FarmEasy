@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cv2"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="16dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/iconId"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/tvReportType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/iconId"
+            android:text="Lollipop"
+            android:minHeight="55dp"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textSize="18sp" />
+       <!-- <Button
+            android:background="@color/btn_logut_bg"
+            android:id= "@+id/openreport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onButonClick"
+            android:layout_below="@id/tvReportType"/>-->
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent" android:scrollbars="none"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingLeft="20dp"
+        android:background="@color/input_register_bg"
+        android:nestedScrollingEnabled="false"
+        android:layout_gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+
+    <EditText
+                android:id="@+id/txt_accname"
+                android:layout_width="200dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+                android:layout_height="40dp"
+                android:hint="@string/account_name"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginLeft="25dp"/></LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+
+    <EditText
+            android:id="@+id/txt_acc_bal"
+            android:layout_width="200dp"
+            android:background="@drawable/edit_text_design"
+            android:singleLine="true"
+            android:layout_height="40dp"
+            android:hint="@string/account_open_bal"
+            android:textColorHint="@color/input_login_hint"
+            android:layout_marginLeft="25dp"/></LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+
+    <EditText
+            android:id="@+id/txt_acc_date"
+            android:layout_width="200dp"
+            android:background="@drawable/edit_text_design"
+             android:hint="@string/tvdate"
+             android:textColorHint="@color/input_login_hint"
+            android:singleLine="true"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"/></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_acc_save"
+            android:background="@color/btn_logut_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:textColor="@color/textColorPrimary"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            />
+        <ListView
+            android:id="@+id/accountList"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+        </ListView>
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/textColorPrimary"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+
+        <EditText
+            android:id="@+id/txt_product_cat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/add_product_category"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/colorPrimary"
+            android:background="@drawable/edit_text_design"/>
+
+        <Button
+            android:id="@+id/btn_product_cat"
+            android:layout_below="@+id/txt_expense_cat"
+            android:background="@color/btn_logut_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/textColorPrimary"
+            android:layout_gravity="center"
+            />
+        <ListView
+            android:id="@android:id/list"
+            android:layout_below="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

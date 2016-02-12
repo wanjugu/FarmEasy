@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent" android:scrollbars="none"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingLeft="20dp"
+        android:background="@color/input_register_bg"
+        android:nestedScrollingEnabled="false">
+
+
+        <LinearLayout
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_sale_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvsaleproduct"
+                android:textSize="20sp"
+                android:textColor="@color/btn_login_bg"
+                android:padding="20dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_sale"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_design"/>
+
+
+           <EditText
+
+               android:visibility="gone"
+                 android:id="@+id/txt_sale_product"
+                 android:layout_width="200dp"
+                 android:background="@drawable/edit_text_design"
+                 android:singleLine="true"
+                 android:layout_height="40dp"
+                 android:hint="@string/productname"
+                 android:textColorHint="@color/input_login_hint"
+                 android:layout_marginLeft="25dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_saleQty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvsaleqty"
+                android:textSize="20sp"
+                android:textColor="@color/btn_login_bg"
+                android:padding="20dp"/>
+
+            <EditText
+
+                android:id="@+id/txt_saleQty"
+                android:layout_width="200dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:hint="@string/quantity_sold"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unitprice"
+                android:textSize="20sp"
+                android:textColor="@color/btn_login_bg"
+                android:padding="20dp"/>
+
+            <EditText
+
+                android:id="@+id/txt_sp"
+                android:layout_width="100dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:hint="@string/sp"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+
+                android:id="@+id/txt_total"
+                android:layout_width="100dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+                android:layout_height="40dp"
+                android:hint="total"
+                android:editable="false"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginLeft="0dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_saleamountreceived"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_sale_amt_received"
+                android:textSize="20sp"
+                android:textColor="@color/btn_login_bg"
+                android:padding="20dp"/>
+
+            <EditText
+
+                android:id="@+id/txt_saleamountreceived"
+                android:layout_width="100dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:hint="@string/sale_amountreceived"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginLeft="50dp"/>
+
+            <EditText
+
+                android:id="@+id/txt_receivable"
+                android:layout_width="100dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+                android:layout_height="40dp"
+                android:hint="bal"
+                android:editable="false"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginLeft="0dp"/>
+
+            <EditText
+
+                android:id="@+id/txt_db_totalAmount"
+                android:visibility="gone"
+                android:layout_width="100dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:hint="@string/sale_amountreceived"
+                android:textColorHint="@color/input_login_hint"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:paddingTop="0dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_salepaymethod2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sale_method"
+            android:textSize="20sp"
+            android:textColor="@color/btn_login_bg"
+            android:padding="20dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_method"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_design"/>
+
+            <!-- <EditText
+
+                 android:id="@+id/txt_salepaymethod"
+                 android:layout_width="200dp"
+                 android:background="@drawable/edit_text_design"
+                 android:singleLine="true"
+                 android:layout_height="40dp"
+                 android:hint="@string/payment_method"
+                 android:textColorHint="@color/input_login_hint"
+                 android:layout_marginLeft="25dp"/>-->
+    </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_salecustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/customer_name"
+                android:textSize="20sp"
+                android:textColor="@color/btn_login_bg"
+                android:padding="20dp"/>
+
+            <!--<Spinner
+                android:id="@+id/salecustomerspinner"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_design"/>-->
+
+            <EditText
+
+                 android:id="@+id/txt_salecustomer"
+                 android:layout_width="200dp"
+                 android:background="@drawable/edit_text_design"
+                 android:singleLine="true"
+                 android:layout_height="40dp"
+                 android:hint="@string/customer"
+                 android:textColorHint="@color/input_login_hint"
+                 android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+       <!-- <LinearLayout
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_stockqty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stock_Qty"
+                android:textSize="20sp"
+                android:textColor="@color/btn_login_bg"
+                android:padding="20dp"/>
+            <EditText
+
+                android:id="@+id/txt_stockQty"
+                android:layout_width="200dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+
+                android:layout_height="40dp"
+                android:editable="false"
+                android:layout_marginLeft="40dp"/>
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_saledate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvdate"
+                android:textSize="20sp"
+                android:textColor="@color/btn_login_bg"
+                android:padding="20dp"/>
+            <EditText
+
+                android:id="@+id/txt_saledate"
+                android:layout_width="200dp"
+                android:background="@drawable/edit_text_design"
+                android:singleLine="true"
+                android:inputType="datetime"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="0dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvcomment"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvcomment"
+                android:textColor="@color/textColorPrimary"
+                android:padding="20dp"/>
+
+            <EditText
+                android:id="@+id/txtsalecomment"
+                android:layout_width="200dp"
+                android:background="@drawable/edit_text_design"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_savesale"
+            android:background="@color/btn_logut_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textColor="@color/textColorPrimary"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+    </ScrollView>

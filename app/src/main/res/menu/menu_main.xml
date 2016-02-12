@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/about"/>
+
+    <item
+        android:title="Sync Data"
+        android:id="@+id/refresh"
+        android:icon="@mipmap/ic_action_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

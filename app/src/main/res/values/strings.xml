@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">FarmEasy</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opendrawer">open</string>
+    <string name="closedrawer">close</string>
+
+
+    <string name="hint_email">email</string>
+    <string name="hint_password">password</string>
+    <string name="hint_name">fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Need account? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="action_sales">Sales</string>
+    <string name="action_product">Products</string>
+    <string name="action_expense">Expenses</string>
+    <string name="action_report">Report</string>
+    <string name="action_logout">Logout</string>
+    <string name="managesale">ManageSales</string>
+    <string name="manageproduct">Manage Product</string>
+    <string name="productcategory">Product Category</string>
+    <string name="manageexpense">Manage Expenses</string>
+    <string name="expensecategory">Expense Category</string>
+    <string name="managereturns">Manage Returns</string>
+    <string name="salesreport">Sales Report</string>
+    <string name="productreport">Product Report</string>
+    <string name="expensereport">Expense Report</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="save">Save</string>
+    <string name="add_category">add new category</string>
+    <string name="add_expense_category">add expense category</string>
+    <string name="tvcategory">Category</string>
+    <string name="tvpayee">Payee</string>
+    <string name="tvaccount">Account</string>
+    <string name="tvdate">Date</string>
+    <string name="tvcomment">Comment</string>
+    <string name="expense_type">expense category</string>
+    <string name="tvquantity">Amount</string>
+
+    <string name="tv_productname">Name</string>
+    <string name="productname">product name</string>
+    <string name="tv_product_qty">Quantity</string>
+    <string name="tvunitprice">Price</string>
+    <string name="unitprice">unit price</string>
+    <string name="product_uom">uom</string>
+    <string name="add_product_category">add product category</string>
+    <string name="tvsaleproduct">Product</string>
+    <string name="tvsaleqty">Quantity</string>
+    <string name="quantity_sold">quantity sold</string>
+    <string name="tv_Amount_Receivable">Receivable</string>
+    <string name="saleprice">Price</string>
+    <string name="sp">unit price</string>
+    <string name="tv_sale_amt_received">Paid</string>
+    <string name="sale_amountreceived">amount paid</string>
+    <string name="sale_paymethod">Payment</string>
+    <string name="sale_method">Method</string>
+    <string name="payment_method">payment method</string>
+    <string name="customer_name">Customer</string>
+    <string name="customer">customer name</string>
+    <string name="stock_Qty">Stock</string>
+    <string name="stock_Qtyamount">stock quantity</string>
+    <string name="account_name">Account Name</string>
+    <string name="account_open_bal">opening balance</string>
+    <string name="add">Add</string>
+    <string name="manageaccounts">Manage Accounts</string>
+    <string name="cancel">cancel</string>
+</resources>

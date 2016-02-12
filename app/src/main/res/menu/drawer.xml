@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <group android:checkableBehavior="single">
+
+
+    <item
+    android:id="@+id/sale"
+    android:checked="false"
+    android:icon="@mipmap/ic_launcher"
+    android:title="@string/action_sales">
+
+        <!--"Sale" submenu-->
+
+    <menu>
+        <item
+            android:id="@+id/managesale"
+            android:title="@string/managesale"
+            android:checkable="false"/>
+
+        <item
+            android:id="@+id/managereturns"
+            android:title="@string/managereturns"
+            android:checkable="false"/>
+
+        <item
+            android:id="@+id/manageaccounts"
+            android:title="@string/manageaccounts"
+            android:checkable="false"/>
+
+    </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/product"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/action_product">
+
+    <menu>
+        <item
+            android:id="@+id/manageproduct"
+            android:title="@string/manageproduct"
+            android:checkable="false"/>
+
+        <item
+            android:id="@+id/productcategory"
+            android:title="@string/productcategory"
+            android:checkable="false"/>
+
+    </menu>
+
+</item>
+
+    <item
+        android:id="@+id/expemse"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/action_expense">
+
+        <menu>
+            <item
+                android:id="@+id/manageexpense"
+                android:title="@string/manageexpense"
+                android:checkable="false"/>
+
+            <item
+                android:id="@+id/expensecategory"
+                android:title="@string/expensecategory"
+                android:checkable="false"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/report"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/action_report">
+
+        <menu>
+            <item
+                android:id="@+id/salesreport"
+                android:title="@string/salesreport"
+                android:checkable="false"/>
+
+            <item
+            android:id="@+id/productreport"
+            android:title="@string/productreport"
+            android:checkable="false"/>
+
+            <item
+                android:id="@+id/expensereport"
+                android:title="@string/expensereport"
+                android:checkable="false"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/settings"
+        android:checked="false"
+        android:icon="@mipmap/ic_settings"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/help"
+        android:checked="false"
+        android:icon="@mipmap/ic_help"
+        android:title="@string/help"/>
+ 
+
+    <item
+        android:id="@+id/logout"
+        android:checked="false"
+        android:icon="@mipmap/ic_power"
+        android:title="@string/action_logout"/>
+
+
+          
+     
+     
+            
+     
+        </group>
+</menu>
